@@ -1,12 +1,11 @@
-
 local E, L, V, P, G,_ = unpack(ElvUI)
 local AS = E:GetModule('AddOnSkins')
 
-local Recount = _G.Recount
+
 
 local name = "RecountSkin"
 local function SkinRecount(self)
-	
+	local Recount = _G.Recount
 	local function SkinFrame(frame)
 		frame.bgMain = CreateFrame("Frame", nil, frame)
 		frame.bgMain:SetTemplate("Transparent")
